@@ -17,7 +17,6 @@ export default function Index() {
       contentFit="contain"
       player={player}
       nativeControls={false}
-      onTouchStart={() => console.log("touch start")}
       onTouchEndCapture={() => console.log("touch end")}
     />
   );
